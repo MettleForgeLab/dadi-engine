@@ -796,7 +796,7 @@ Within the broader architecture:
 
 DataDiddler extracts and restructures meaning across artifact graphs.
 
-DADI-Engine enforces deterministic execution and mutation discipline.
+DADI-Engine (aka DADI-Diddler) enforces deterministic execution and mutation discipline.
 
 Together, they support structured, reproducible knowledge workflows in environments where traceability and replayability are operational constraints.
 
