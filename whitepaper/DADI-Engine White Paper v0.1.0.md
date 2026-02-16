@@ -1,4 +1,3 @@
-```markdown
 # DADI-Engine White Paper v0.1.0
 
 **Status:** Draft Public Release  
@@ -216,6 +215,7 @@ Outside that boundary, no determinism is claimed.
 Within that boundary, determinism is enforced.
 
 ### Structural Layers
+
 ```
 
 Toolchain Installer
@@ -831,4 +831,7 @@ As intelligence scales, structure must scale with it.
 
 Published by **Mettle Forge Lab**
 License: MIT
+
+```
+
 ```
