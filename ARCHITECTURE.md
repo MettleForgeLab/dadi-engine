@@ -19,45 +19,47 @@ The core invariant:
 
 ## System Layers (Conceptual)
 
+```
 ┌─────────────────────────────────────────────┐
-│ Trust-Governed Mutation Layer │
-│ - delta bundle validation │
-│ - trust policy enforcement │
-│ - file-level SHA256 checks │
-│ - deterministic apply logs │
+│ Trust-Governed Mutation Layer              │
+│ - delta bundle validation                  │
+│ - trust policy enforcement                 │
+│ - file-level SHA256 checks                 │
+│ - deterministic apply logs                 │
 └─────────────────────────────────────────────┘
-▲
-│
+                        ▲
+                        │
 ┌─────────────────────────────────────────────┐
-│ Deterministic Query Runtime │
-│ - validate queries │
-│ - run pure-function queries │
-│ - stable result.json + report.json │
+│ Deterministic Query Runtime                │
+│ - validate queries                         │
+│ - run pure-function queries                │
+│ - stable result.json + report.json         │
 └─────────────────────────────────────────────┘
-▲
-│
+                        ▲
+                        │
 ┌─────────────────────────────────────────────┐
-│ Canonical Packager / Compiler │
-│ - stable JSON serialization │
-│ - deterministic ordering │
-│ - timestamp elimination │
+│ Canonical Packager / Compiler              │
+│ - stable JSON serialization                │
+│ - deterministic ordering                   │
+│ - timestamp elimination                    │
 └─────────────────────────────────────────────┘
-▲
-│
+                        ▲
+                        │
 ┌─────────────────────────────────────────────┐
-│ Pipeline Harness │
-│ - staged processing with file boundaries │
-│ - manifests + stage logs │
-│ - fail-closed execution │
+│ Pipeline Harness                           │
+│ - staged processing with file boundaries   │
+│ - manifests + stage logs                   │
+│ - fail-closed execution                    │
 └─────────────────────────────────────────────┘
-▲
-│
+                        ▲
+                        │
 ┌─────────────────────────────────────────────┐
-│ Toolchain Installer │
-│ - module registry │
-│ - hash verification │
-│ - deterministic wiring (tools.json) │
+│ Toolchain Installer                        │
+│ - module registry                          │
+│ - hash verification                        │
+│ - deterministic wiring (tools.json)        │
 └─────────────────────────────────────────────┘
+```
 
 ---
 
