@@ -18,7 +18,7 @@ The core invariant:
 ---
 
 ## System Layers (Conceptual)
-
+```
 ┌─────────────────────────────────────────────┐
 │ Trust-Governed Mutation Layer │
 │ - delta bundle validation │
@@ -58,7 +58,7 @@ The core invariant:
 │ - hash verification │
 │ - deterministic wiring (tools.json) │
 └─────────────────────────────────────────────┘
-
+```
 ---
 
 ## Artifact Model
